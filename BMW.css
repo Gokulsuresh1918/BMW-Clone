@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto,sans-serif,bmwTypeNextWeb,Arial,Helvetica";
+    box-sizing:border-box;
+
+}
+
+/* video{
+    /* position: absolute;
+    z-index: -1;
+    top: -80px; */
+
+ */
+body{
+    /* background: #000; */
+    color:#fff;
+    /* margin-bottom: 500px; */
+    /* overflow-x: hidden; */
+    /* background-image: url(imageBMW/ointrest\ m\ sport.jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imageBMW/dea1ee85bea52fdcea5dcd736e187b18.jpg);
+       background-position: center;
+       background-size: cover;
+
+}
+.logo{
+    width: 36px;
+    margin: 16px 26px;
+    cursor: pointer;
+}
+.header-content{
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    transform:translate(-50%,-50%); 
+    
+}
+.header-content h5{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 40px;
+}
+.header-content h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+    max-width: 500px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+  margin-left: -28px;
+  margin-bottom: 10px;
+}
+.header-content h4{
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 10;
+    max-width: 300px;
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 100px;
+   margin-bottom: 36px;
+}
+.configure{
+    border:0;
+    outline: 0;
+    background: #1c69d4;
+    color: #fff;
+    padding: 17px 19px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.configure:hover{
+    opacity: 0.8;
+}
+.knowmore{
+   border-width: 1px;
+    border-color: #fff;
+    outline: 2px;
+    background-color:transparent;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.knowmore:hover{
+    border-width: 2.5px;
+}
+.features{
+    display: flex;
+    width: 100%;
+   
+    background-color: #fff;
+    color: #000;
+   justify-content: center;
+   text-align: center;
+}
+.heading-top h5{
+    font-size: 15px;
+    color: #464141;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.heading-top h2{
+    font-size: 38px;
+    font-weight: lighter;
+}
+/* ---------------second---------- */
+.service {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.service-img {
+    width: 400px;
+}
+.icon-div h6{
+display: flex;
+justify-content: space-around;
+font-size: 18px;
+font-weight: lighter;
+margin-bottom: 30px;
+
+}
+.icon-div button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+    outline:2px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-width: 2px;
+}
+.icon-div button:hover{
+    border-width: 3px;
+}
+.photo-content {
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-image:url(https://bmw.scene7.com/is/image/BMW/DI21_000048047:3to1?fmt=webp&wid=2560&hei=854);
+    background-position: center;
+    background-size: cover;
+       
+}
+.photo-content {
+display: flex;
+justify-content: center;
+text-align: left;
+flex-direction: column;
+
+}
+.photo-content button{
+width: 250px;
+height: 50px;
+margin-left: 150px;
+color: rgb(255, 255, 255);
+background-color: transparent;
+font-size: 20px;
+font-weight: bold;
+border-radius: 2px;
+border-color: white;
+border-width: 2px;
+}
+.photo-content button:hover{
+    border-width: 3.5px;
+}
+.photo-content h1{
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+background-color: transparent;
+font-weight: lighter;
+font-size: 37px;
+}
+.column-content{
+    
+    display: flex;
+
+}
+.column-content img{
+    width :90%;
+    margin-top: 30px;
+    margin-left: 0px;
+    display:flex;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    
+}
+.column-content-text{
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+     justify-content:center;
+     
+}
+.column-content-text h3{
+    color: #464141;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.column-content-text h1{
+    font-weight:lighter;
+    margin-bottom: 10px;
+}
+.column-content-text p{
+    font-weight:lighter;
+    
+}
+.column-content-text button{
+    width: 170px;
+    height: 44px;
+    margin-top: 26px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #fff;
+    border-radius: 4px;
+    border-width: 1.5px;
+}
+.column-content-text button:hover{
+border-width: 3px;
+}
+/* ---------------------footer------------------ */
+.footer{
+    /* padding: 50px 15% 10px; */
+    color: #0a0a0a;
+    display:flex;
+ justify-content: space-around;
+ font-weight: bolder;
+ margin-bottom: 70px;
+
+}
+.notice{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.social-icon{
+    width: 30px;
+    margin-left: 30px;
+}
+.copy{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.legal{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 22px;
+    margin-right:30px ;
+    margin-bottom: 50px;
+}
+.box{
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: start;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+}
+.top{
+    border: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 35px;
+    
+    
+}
+a{
+    color: gray;
+    text-decoration: none;
+}

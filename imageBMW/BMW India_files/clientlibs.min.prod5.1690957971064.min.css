@@ -1,0 +1,8 @@
+.cmp-searchresults__more{align-items:center;display:inline-flex}
+.cmp-searchresults__more-hidden{display:none}
+.cmp-searchresults__noresults--hidden{display:none}
+.cmp-searchresults__systemerror{align-items:center;display:flex}
+.cmp-searchresults__systemerror--hidden{display:none}
+.cmp-searchresults__foundresults--hidden{display:none}
+.cmp-onsitesearch .searchbox{float:none}
+.cmp-onsitesearch__tabs--hidden{display:none}

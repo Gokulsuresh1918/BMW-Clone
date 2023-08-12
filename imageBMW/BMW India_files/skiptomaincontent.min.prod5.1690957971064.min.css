@@ -1,0 +1,2 @@
+.cmp-page__skiptomaincontent .cmp-page__skiptomaincontent-link{position:absolute;left:-999px;top:0;width:1px;height:1px;overflow:hidden;z-index:-999}
+.cmp-page__skiptomaincontent .cmp-page__skiptomaincontent-link:focus,.cmp-page__skiptomaincontent .cmp-page__skiptomaincontent-link:active{left:20px;top:20px;width:auto;height:auto;color:blue;background:white;border:1px solid blue;overflow:auto;padding:10px;margin:5px;z-index:999}
